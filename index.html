@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href = "./style.css" rel = "stylesheet"> 
+</head>
+<body>
+        <section class = "header"> 
+            <h1 class = "todo"> To-do App </h1> 
+            <h3 class = "whatTodo"> What do you need to do? </h3> 
+        </section> 
+        <section class = "todoSection">
+            <div class = "filterDiv" id = "filterDiv"> 
+                <input type = "text" class = "filterQuery" id = "filterQuery" placeholder = "filter todos">
+                <input type = "checkbox" class = "hide" id = "hide"> hide completed
+            </div> 
+            <div class = "numberTodos"> 
+                <p class = "youhave"> You have </p>
+                <p class = "numberOfTodos" id = "numberOfTodos" value = "0"> 0 </p>
+                    <p class = "left"> todos left </p>
+            </div>
+                <div class = "todoListDiv" id = "todoListDiv"> </div> 
+            <div class = "addToDo" id = "addToDo"> 
+                <input type = "text" class = "newToDo" id = "newToDo" placeholder = "New Todo">
+                <button type = "submit" class = "submit" id = "submit"> submit! </button> 
+            </div>                
+            </div> 
+        </section> 
+</body>
+<script src = "./todo.js"> </script> 
+</html>
+

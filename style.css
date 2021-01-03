@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: #6f439c; 
+    color: white; 
+    height: 150px;    
+    justify-content: center; 
+    text-align: center; 
+    margin-top: -21px;
+}
+
+.todoSection {
+    background-color: #2b292e; 
+    color: white;
+    margin-top: -50px;
+    height: 800px; 
+    justify-content: center; 
+    text-align: center; 
+}
+.numberOfTodos {
+    font-size: 40px; 
+}
+.newTodoDiv {
+    font-size: 60px;  
+    background-color:#343239; 
+    justify-content: center; 
+    text-align: center; 
+    align-content: center; 
+    padding: 20px; 
+}
+.todoListDiv {
+    align-self: center; 
+    justify-content: center; 
+}
+p {
+    display: inline; 
+}
+.delete {
+    display: none;
+}
+
+.display-none {
+    display: none; 
+}
+.filterDiv {
+    height: 75px; 
+    background-color: #343239;
+}
+.filterQuery {
+    padding: 10px; 
+    justify-content: center;
+    margin-top: 20px; 
+}
